@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  /* PRIMARY COLOR - ROYAL / MYSTIC BLUE */
+  --color-primary-100: oklch(0.88 0.1 250);
+  --color-primary-200: oklch(0.76 0.13 250);
+  --color-primary-300: oklch(0.64 0.15 250);
+  --color-primary-500: oklch(0.52 0.18 250); /* BASE */
+  --color-primary-700: oklch(0.4 0.2 250);
+  --color-primary-900: oklch(0.28 0.22 250);
+  --color-primary-hover: oklch(0.48 0.19 250); /* HOVER */
+
+  /* SECONDARY COLOR - GOLDEN / ANCIENT GOLD */
+  --color-secondary-100: oklch(0.96 0.11 90);
+  --color-secondary-200: oklch(0.92 0.14 90);
+  --color-secondary-300: oklch(0.88 0.17 90);
+  --color-secondary-500: oklch(0.82 0.22 90); /* BASE */
+  --color-secondary-700: oklch(0.72 0.25 90);
+  --color-secondary-900: oklch(0.6 0.28 90);
+  --color-secondary-hover: oklch(0.78 0.24 90); /* HOVER */
+
+  /* TERTIARY COLOR - STEEL / SILVER METAL */
+  --color-tertiary-100: oklch(0.95 0.02 250);
+  --color-tertiary-200: oklch(0.86 0.03 250);
+  --color-tertiary-300: oklch(0.75 0.04 250);
+  --color-tertiary-500: oklch(0.6 0.06 250); /* BASE */
+  --color-tertiary-700: oklch(0.45 0.07 250);
+  --color-tertiary-900: oklch(0.3 0.09 250);
+
+  /* NEUTRAL COLORS - TEXT AND BACKGROUND */
+  --color-neutral-100: oklch(0.98 0.01 80);
+  --color-neutral-200: oklch(0.94 0.02 80);
+  --color-neutral-300: oklch(0.88 0.03 80);
+  --color-neutral-500: oklch(0.75 0.04 80); /* BASE BACKGROUND */
+  --color-neutral-700: oklch(0.55 0.05 80); /* MEDIUM BACKGROUND */
+  --color-neutral-900: oklch(0.35 0.06 80); /* DARKER BACKGROUND */
+
+  /* EMPHASIS COLORS - RUBY RED */
+  --color-accent-100: oklch(0.85 0.13 25);
+  --color-accent-500: oklch(0.6 0.2 25); /* BASE */
+  --color-accent-900: oklch(0.4 0.25 25);
+}
