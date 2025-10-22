@@ -14,10 +14,13 @@ function App() {
   const videoRef = useRef<HTMLElement>(null);
 
   return (
-    <div>
+    <div className="font-medieval">
       <Navbar
         scrollToHome={() =>
-          homeRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+          homeRef.current?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          })
         }
         scrollToAbout={() =>
           aboutRef.current?.scrollIntoView({ behavior: "smooth" })
