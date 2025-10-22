@@ -7,7 +7,7 @@ const Video = forwardRef<HTMLElement>((_props, ref) => {
     <section
       ref={ref} // reference passed by App.tsx
       id="video" // section id (Optional but Optimal)
-      className="flex flex-col items-center justify-center text-center py-20 px-6 bg-neutral-900 text-white"
+      className="flex flex-col items-center justify-center text-center py-20 px-6 bg-neutral-800 text-white"
     >
       <h2 className="text-4xl font-bold mb-4 text-white">
         Game Development Teaser

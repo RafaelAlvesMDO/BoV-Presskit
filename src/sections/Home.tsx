@@ -23,7 +23,10 @@ const Home = forwardRef<HTMLElement>((_props, ref) => {
           className="h-86 w-86 object-contain mb-4"
         />
         <a
-          href="https://github.com/RafaelAlvesMDO/BladeOfValor" target="_blank" className="w-full p-3 transition-colors duration-300 ease-in-out text-white text-shadow-md text-xl bg-secondary-700 hover:bg-secondary-900 
+          href="https://github.com/RafaelAlvesMDO/BladeOfValor"
+          target="_blank"
+          className="w-full p-3 transition-colors duration-300 ease-in-out 
+          text-white text-shadow-md text-xl bg-secondary-700 hover:bg-secondary-900 
           rounded-md shadow-md border-1 border-secondary-100"
         >
           PLAY NOW
