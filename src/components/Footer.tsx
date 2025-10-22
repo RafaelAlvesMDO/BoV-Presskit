@@ -13,7 +13,7 @@ export default function Footer({
   copyrightYear = new Date().getFullYear(),
 }: FooterProps) {
   return (
-    <footer className="w-full bg-neutral-500 text-white">
+    <footer className="w-full bg-neutral-800 text-white">
       <div className="mx-6 p-4 flex flex-row items-center justify-between gap-8">
         {/* Game Logo */}
         <img
@@ -23,10 +23,10 @@ export default function Footer({
         />
 
         {/* Links and Platforms */}
-        <div className="flex gap-12">
+        <div className="text-base flex gap-12">
           <div>
-            <h4 className="text-sm font-semibold">Links</h4>
-            <ul className="mt-2 text-sm">
+            <h4 className="font-semibold">Links</h4>
+            <ul className="mt-2">
               <li>
                 <a
                   href="https://docs.google.com/document/d/1ovNfVfL7xAh6Iv9Xi4G_VdakdgUsrUHlQjNZ_pSS_OE/edit?usp=sharing"
@@ -40,8 +40,8 @@ export default function Footer({
             </ul>
           </div>
           <div>
-            <h4 className="text-sm font-semibold">Platform</h4>
-            <ul className="mt-2 text-sm">
+            <h4 className="font-semibold">Platform</h4>
+            <ul className="mt-2">
               <li>PC (Steam)</li>
             </ul>
           </div>
@@ -49,8 +49,8 @@ export default function Footer({
       </div>
 
       <div
-        className="mx-6 p-4 border-t border-neutral-900 pt-6 flex flex-row 
-      items-center justify-between gap-4 text-sm"
+        className="mx-6 p-4 border-t border-secondary-700 pt-6 flex flex-row 
+      items-center justify-between gap-4 text-base"
       >
         <div>
           © {copyrightYear} {gameName}. For educational purposes only.
