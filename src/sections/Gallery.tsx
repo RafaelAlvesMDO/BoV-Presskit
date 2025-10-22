@@ -15,7 +15,7 @@ const Gallery = forwardRef<HTMLElement>((_props, ref) => {
     <section
       ref={ref} // reference passed by App.tsx
       id="gallery" // section id (Optional but Optimal)
-      className="bg-neutral-700 py-20 px-6 md:px-20 text-white"
+      className="bg-neutral-900 py-20 px-6 md:px-20 text-white"
     >
       <h2 className="text-4xl font-bold mb-10 text-center">Game Gallery</h2>
       {/* Gallery - Images */}
