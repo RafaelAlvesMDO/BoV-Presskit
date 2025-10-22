@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC:ital,wght@0,400;0,700;1,400&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -32,11 +33,16 @@
   --color-neutral-200: oklch(0.94 0.02 80);
   --color-neutral-300: oklch(0.88 0.03 80);
   --color-neutral-500: oklch(0.75 0.04 80); /* BASE BACKGROUND */
+  --color-neutral-600: oklch(0.65 0.045 80);
   --color-neutral-700: oklch(0.55 0.05 80); /* MEDIUM BACKGROUND */
+  --color-neutral-800: oklch(0.45 0.055 80);
   --color-neutral-900: oklch(0.35 0.06 80); /* DARKER BACKGROUND */
 
   /* EMPHASIS COLORS - RUBY RED */
   --color-accent-100: oklch(0.85 0.13 25);
   --color-accent-500: oklch(0.6 0.2 25); /* BASE */
   --color-accent-900: oklch(0.4 0.25 25);
+
+  /* MEDIEVAL - FONT TEXT */
+  --font-medieval: "IM Fell English SC", serif;
 }
