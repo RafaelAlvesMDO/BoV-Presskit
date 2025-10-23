@@ -5,6 +5,7 @@ import Icon from "../assets/BoV-Icon.png";
 interface NavbarProps {
   scrollToHome: () => void;
   scrollToAbout: () => void;
+  scrollToCharacters: () => void;
   scrollToGallery: () => void;
   scrollToVideo: () => void;
 }
@@ -12,6 +13,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({
   scrollToHome,
   scrollToAbout,
+  scrollToCharacters,
   scrollToGallery,
   scrollToVideo,
 }) => {
@@ -70,6 +72,15 @@ const Navbar: React.FC<NavbarProps> = ({
               className="transition-colors duration-300 ease-in-out text-white font-bold hover:text-secondary-500"
             >
               ABOUT
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={scrollToCharacters}
+              href="#characters"
+              className="transition-colors duration-300 ease-in-out text-white font-bold hover:text-secondary-500"
+            >
+              CHARACTERS
             </a>
           </li>
           <li>
