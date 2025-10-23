@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import BackgroundImage from "../assets/Home-Background.jpg";
+import BackgroundImage from "../assets/Backgrounds/Home-Background.jpg";
 import Logo from "../assets/BoV-Logo.png";
 
 // forwardRef used to make possible App.tsx to reference the sections
