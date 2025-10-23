@@ -26,8 +26,8 @@ const Video = forwardRef<HTMLElement>((_props, ref) => {
       <div className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-lg border border-gray-800">
         <iframe
           className="w-full h-full"
-          src="https://www.youtube.com/embed/SEU_VIDEO_AQUI" // Need to be Replaced
-          title="Progresso de desenvolvimento - Blade of Valor"
+          src="https://www.youtube.com/embed/oJess4UIuts"
+          title="Game Development Teaser - Blade of Valor"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
