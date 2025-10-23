@@ -19,7 +19,7 @@ const Gallery = forwardRef<HTMLElement>((_props, ref) => {
     >
       <h2 className="text-4xl font-bold mb-10 text-center">Game Gallery</h2>
       {/* Gallery - Images */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {images.map((img, index) => (
           <div key={index} className="overflow-hidden rounded-lg shadow-lg">
             <img
