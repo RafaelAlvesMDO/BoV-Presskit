@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import GameImage from "../assets/About-Image.png";
+import GameImage from "../assets/GameImages/4.Spawnpoint.jpg";
 
 // forwardRef used to make possible App.tsx to reference the sections
 // _props -> Used to tell that props is opcional
